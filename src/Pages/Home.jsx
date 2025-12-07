@@ -7,7 +7,7 @@ import Vat from './Vat';
 const Home = () => {
 
     return (
-        <div>
+        <div className='max-w-full mx-auto overflow-hidden'>
             <Slider> </Slider>
             <PopularSection></PopularSection>
             <TipsCare></TipsCare>

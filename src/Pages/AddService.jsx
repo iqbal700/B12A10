@@ -42,9 +42,9 @@ const AddService = () => {
 
     return (
 
-        <div className="min-h-screen mt-10 p-8 flex items-center justify-center">
+        <div className="min-h-screen mt-20 md:mt-10 p-8 flex items-center justify-center">
             <div className="w-full max-w-2xl bg-white bg-opacity-95 backdrop-blur-sm p-8 rounded-xl shadow-2xl">
-                <h2 className="text-3xl font-extrabold text-gray-800 mb-6 border-b pb-2">
+                <h2 className="text-3xl font-extrabold text-gray-800 mb-6 border-b h1-heading pb-2">
                 New Pet/Product Listing 🐾
                 </h2>
 
@@ -96,7 +96,7 @@ const AddService = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                    <div className="flex-1">
+                    <div className="flex-1 ">
                     <label htmlFor="location" className="block text-sm font-medium text-gray-700">
                         Location
                     </label>
@@ -162,7 +162,7 @@ const AddService = () => {
                     type="email"
                     name="email"
                     id="email"
-                    readOnly
+                    
                     className="mt-1 block w-full px-3 py-2 border border-gray-200 bg-gray-50 rounded-md shadow-sm text-gray-600 cursor-not-allowed"
                     />
                 </div>
@@ -170,7 +170,7 @@ const AddService = () => {
             
                 <button
                     type="submit"
-                    className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out"
+                    className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-[#093672] hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 transition duration-150 ease-in-out"
                 >
                     Create Listing
                 </button>
