@@ -15,23 +15,23 @@ const BannerContent = ({ title, description, imageSrc, imageAlt }) => {
 
     return (
         <div 
-            className={`h-[600px] w-full flex md:flex-row  items-center justify-between bg-gray-100 relative`}
+            className={`h-[600px] w-full flex md:flex-row flex-col  items-center justify-between bg-gray-100 relative`}
         >
          
             <motion.div 
                 key={description} 
-                className="w-1/2 p-26 z-10 space-y-3.5 h1-heading"
+                className="md:w-1/2 w-full md:p-26 p-15 z-10 space-y-3.5 h1-heading"
                 variants={contentVariant}
                 initial="initial"
                 animate="animate"
                 transition={{ duration: 0.8, ease: "easeOut" }}
             >
                   {/* Text Section  */}
-                <p className="text-2xl font-semibold text-[#093672] w-150">{description}</p>
+                <p className="text-2xl font-semibold text-[#093672] md:w-150">{description}</p>
                 <h2 className="text-[17px] text-gray-700 mb-4">{title}</h2>
                 <motion.button 
                  
-                    className="mt-8 px-6 py-3 border text-[#093672] font-bold rounded-lg hover:bg-[#093672] hover:text-white transition"
+                    className="md:mt-8 px-6 py-3 border text-[#093672] font-bold rounded-lg hover:bg-[#093672] hover:text-white transition"
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
@@ -43,7 +43,7 @@ const BannerContent = ({ title, description, imageSrc, imageAlt }) => {
             {/* Image Section  */}
             <motion.div 
                 key={imageSrc} 
-                className="w-1/2 h-full z-10 flex justify-center items-center"
+                className="md:w-1/2 w-full h-full z-10 flex justify-center items-center"
                 variants={imageVariant}
                 initial="initial"
                 animate="animate"

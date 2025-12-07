@@ -20,9 +20,9 @@ const Services = () => {
    
        return (
             <div className='md:mx-[140px] p-5 mt-10'>
-                    <h1 className='font-bold h1-heading text-2xl md:text-5xl text-center p-5'>ALL Pet Section </h1>
+                    <h1 className='font-bold h1-heading text-2xl md:text-5xl mt-5 text-center p-5'>ALL Pet Section </h1>
 
-                   <select onChange={(e)=> setCategory(e.target.value)} defaultValue="choose category" className="select my-5">
+                   <select onChange={(e)=> setCategory(e.target.value)} defaultValue="choose category" className="select border-[#093672] my-5">
                        <option value="pets">Pets</option>
                         <option value="food">Food</option>
                         <option value="accessories">Accessories</option>
@@ -33,7 +33,7 @@ const Services = () => {
                              {
                                services.map(service =>
                                    
-                                     <div className="card w-full bg-base-100 shadow-sm p-2">
+                                     <div className="card w-full bg-base-100 max-h-120 shadow-sm p-2">
                                        <figure>
                                            <img className='h-100 w-350'
                                            src={service.imgUrl}
