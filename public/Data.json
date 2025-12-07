@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.postimg.cc/yYqmP3sC/cat-04.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.postimg.cc/sgm5snS2/cat-01.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Heated Bed & Blanket Sourcing",
+    "providerName": "Pet Comfort Gear",
+    "providerEmail": "sales@petcomfort.net",
+    "price": 45,
+    "rating": 4.6,
+    "slotsAvailable": 6,
+    "description": "Consultation and sourcing for the best insulated and heated pet bedding.",
+    "image": "https://i.postimg.cc/bvFb2smY/cat-02.jpg",
+    "category": "Home Goods"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Indoor Agility Training (Winter)",
+    "providerName": "ActivePaws Center",
+    "providerEmail": "train@activepaws.org",
+    "price": 55,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Fun, supervised indoor training sessions to keep active dogs stimulated during cold months.",
+    "image": "https://i.postimg.cc/L5jZ7v2Z/cat-03.jpg",
+    "category": "Training"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Senior Dog Joint Massage",
+    "providerName": "Wellness Vet Clinic",
+    "providerEmail": "contact@wellnessvet.com",
+    "price": 70,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Therapeutic massage focused on easing stiffness and pain common in older dogs in cold weather.",
+    "image": "https://i.postimg.cc/TYqDJktC/cat-05.jpg",
+    "category": "Health"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Cold Weather Boot Fitting",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 20,
+    "rating": 4.5,
+    "slotsAvailable": 7,
+    "description": "Fitting service for protective paw boots to guard against ice, salt, and snow.",
+    "image": "https://i.postimg.cc/YCdLJvKL/cat-06.jpg",
+    "category": "Clothing"
+  }
+]
