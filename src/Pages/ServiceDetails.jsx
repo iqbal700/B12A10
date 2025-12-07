@@ -102,7 +102,7 @@ const ServiceDetails = () => {
                                 {detailsService.price}
                             </div>
                             <button className=" border border-[#093672] hover:bg-[#093672] hover:text-white p-2 rounded-lg" onClick={() => document.getElementById('my_modal_3').showModal()}>
-                                Make Order
+                               Adopt / Order Now
                             </button>
                         </div>
                     </div>

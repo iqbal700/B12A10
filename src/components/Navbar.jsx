@@ -93,7 +93,7 @@ const Navbar = () => {
                     className='flex border items-center space-x-2 p-2 hover:scale-x-102  text-white rounded-lg transition-colors duration-200 font-semibold shadow-md '
                 > 
                     <UserPlus size={18} aria-hidden="true" />
-                    <span>Register Now</span>
+                    <span>Register</span>
                 </NavLink>
                 )
             }

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
 import axios from 'axios';
+import Swal from 'sweetalert2';
 
 
 const AddService = () => {
@@ -36,7 +37,23 @@ const AddService = () => {
      .then(res => {
         
         console.log(res);
+        
+        if(res.data.acknowledged) {
+            Swal.fire({
+                title: "Listing Created Successfully!",
+                icon: "success",
+                draggable: true
+                });
+                form.reset();
+        } 
+              
     })
+    .catch(err => { console.log(err)
+        Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!"
+                }) } )
 
   }
 
