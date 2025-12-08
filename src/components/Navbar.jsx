@@ -49,8 +49,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 
-                 <div className="flex items-center text-3xl font-bold text-blue-300">
-                    <PawPrint className="w-8 h-8 mr-2 text-blue-300" />
+                 <div className="flex items-center text-xl md:text-4xl font-bold text-blue-300">
+                    <PawPrint className="w-6 h-6  md:w-8 md:h-8 mr-2 text-blue-300" />
                         Petpaws
                 </div>
 
@@ -80,7 +80,7 @@ const Navbar = () => {
                 className='flex items-center px-4 py-2 hover:scale-x-102  text-white transition-colors duration-200 font-semibold border rounded-lg'
             > 
                  <UserPlus size={18} aria-hidden="true" />
-                <span>Login</span>
+                <span className='text-xs'>Login</span>
             </NavLink>
         )
     }
@@ -93,7 +93,7 @@ const Navbar = () => {
                     className='flex border items-center space-x-2 p-2 hover:scale-x-102  text-white rounded-lg transition-colors duration-200 font-semibold shadow-md '
                 > 
                     <UserPlus size={18} aria-hidden="true" />
-                    <span>Register</span>
+                    <span className='text-xs'>Register</span>
                 </NavLink>
                 )
             }

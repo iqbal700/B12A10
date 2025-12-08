@@ -38,7 +38,7 @@ const PopularSection = () => {
     return (
         <div className='md:mx-[140px] p-5'>
           
-            <h2 className='text-3xl font-bold text-gray-800 text-center mb-6 mt-8'>
+            <h2 className='text-xl md:text-3xl font-bold text-gray-800 text-center mb-6 mt-8'>
                 Shop by Category 🛒
             </h2>
             <div className='grid w-full grid-cols-2 md:grid-cols-4 gap-6 mb-12'>
