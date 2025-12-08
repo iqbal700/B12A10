@@ -15,7 +15,7 @@ const BannerContent = ({ title, description, imageSrc, imageAlt }) => {
 
     return (
         <div 
-            className={`h-[600px] w-full flex md:flex-row flex-col  items-center justify-between bg-gray-100 relative`}
+            className={`max-h-[500px] md:h-[600px] w-full flex md:flex-row flex-col  items-center justify-between bg-gray-100 relative`}
         >
          
             <motion.div 
@@ -27,7 +27,7 @@ const BannerContent = ({ title, description, imageSrc, imageAlt }) => {
                 transition={{ duration: 0.8, ease: "easeOut" }}
             >
                   {/* Text Section  */}
-                <p className="text-2xl font-semibold text-[#093672] md:w-150">{description}</p>
+                <p className="text-xl md:text-2xl font-semibold text-[#093672] md:w-150">{description}</p>
                 <h2 className="text-[17px] text-gray-700 mb-4">{title}</h2>
                 <motion.button 
                  
@@ -60,3 +60,6 @@ const BannerContent = ({ title, description, imageSrc, imageAlt }) => {
 };
 
 export default BannerContent;
+
+
+

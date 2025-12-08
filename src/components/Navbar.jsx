@@ -11,6 +11,7 @@ const Navbar = () => {
 
   const {user} = useContext(AuthContext);
 
+
   const handleSignOut = () => {
      signOut(auth)
   }
@@ -71,7 +72,7 @@ const Navbar = () => {
                 className='flex items-center space-x-2 p-2 text-white border rounded-lg transition-colors duration-200 font-semibold'
             > 
                 <LogOut size={18} aria-hidden="true" />
-                <span>Logout</span>
+                <span className='text-xs'>Logout</span>
             </NavLink>
         ) : (
             <NavLink 
@@ -85,6 +86,9 @@ const Navbar = () => {
         )
     }
             </div>
+
+
+          
 
             {
                 !user && (
@@ -122,3 +126,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
