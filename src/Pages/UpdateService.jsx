@@ -12,7 +12,7 @@ const UpdateService = () => {
     const navigation = useNavigate()
 
     useEffect(()=>{
-        axios.get(`http://localhost:3000/services/${id}`)
+        axios.get(`https://petpaw-server-phi.vercel.app/services/${id}`)
         .then(res => {
              setService(res.data);
              setCategory(res.data.category)
@@ -47,7 +47,7 @@ const UpdateService = () => {
 
      console.log(formData);
 
-     axios.put(`http://localhost:3000/update/${id}`, formData)
+     axios.put(`https://petpaw-server-phi.vercel.app/update/${id}`, formData)
        .then(res => {
          console.log(res.data)
          navigation('/my-services')

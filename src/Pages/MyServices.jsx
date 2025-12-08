@@ -10,7 +10,7 @@ const MyServices = () => {
     const {user} = useContext(AuthContext)
       
           useEffect(() =>{
-              fetch(`http://localhost:3000/my-services?email=${user?.email}`)
+              fetch(`https://petpaw-server-phi.vercel.app/my-services?email=${user?.email}`)
               .then(res=> res.json())
               .then(data => setMyServices(data))
               .catch(err => console.log(err))
@@ -33,7 +33,7 @@ const MyServices = () => {
                             
                         if (result.isConfirmed) {
 
-                         axios.delete(`http://localhost:3000/delete/${id}`)
+                         axios.delete(`https://petpaw-server-phi.vercel.app/delete/${id}`)
                             .then(res => {
                             console.log(res.data)
 

@@ -8,7 +8,7 @@ const MyOrders = () => {
     const componentRef = useRef(); 
 
     useEffect(()=>{
-            axios('http://localhost:3000/orders')
+            axios('https://petpaw-server-phi.vercel.app/orders')
              .then(res => setMyOrders(res.data))
              .catch(err => console.log(err))
     },[])

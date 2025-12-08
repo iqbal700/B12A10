@@ -12,7 +12,7 @@ const ServiceDetails = () => {
     console.log('this is form details: ', user);
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/services/${id}`)
+        axios.get(`https://petpaw-server-phi.vercel.app/services/${id}`)
             .then(res => {
                 setDetailsService(res.data);
             })
@@ -63,7 +63,7 @@ const ServiceDetails = () => {
 
         console.log(formData)
 
-        axios.post('http://localhost:3000/orders', formData)
+        axios.post('https://petpaw-server-phi.vercel.app/orders', formData)
             .then(res => console.log(res))
             .catch(err => console.log(err))
     }

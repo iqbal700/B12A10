@@ -9,7 +9,7 @@ const Services = () => {
     
       // ==-== when we use database for showing data in the web page then use  ==-== //
        useEffect(() =>{
-          fetch(`http://localhost:3000/services?category=${category}`)
+          fetch(`https://petpaw-server-phi.vercel.app/services?category=${category}`)
           .then(res=> res.json())
           .then(data => setServices(data))
       }, [category])
